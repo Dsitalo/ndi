@@ -1,0 +1,35 @@
+.tp-main-div {
+  max-width: 700px;
+  margin: 100px auto;
+}
+.tp-main-div img {
+  max-width: 700px;
+}
+.tp-main-div p {
+  padding-top: 15px;
+  line-height: 22px;
+}
+.tp-main-div ul {
+  font-weight: 500;
+  padding-top: 10px;
+}
+@media all and (max-width: 750px) {
+
+  .tp-main-div img {
+    max-width: 500px;
+  }
+  .tp-main-div {
+    max-width: 500px;
+    margin: 50px auto;
+  }
+}
+@media all and (max-width: 500px) {
+
+  .tp-main-div img {
+    max-width: 300px;
+  }
+  .tp-main-div {
+    max-width: 300px;
+    margin: 50px auto;
+  }
+}

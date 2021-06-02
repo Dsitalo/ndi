@@ -1,0 +1,123 @@
+.about-div {
+    max-width: 60%;
+    margin: 50px 0 20px 250px;
+    padding-bottom: 50px;
+    position: relative;
+}
+@media all and (max-width: 1070px) {
+    .about-div {
+        max-width: 70%;
+        margin: 50px 0 20px 100px;
+    }
+}
+@media all and (max-width: 670px) {
+    .about-div {
+        max-width: 80%;
+        margin: 50px 0 20px 20px;
+    }
+}
+@media all and (max-width: 585px) {
+    .about-div {
+        max-width: 100%;
+        margin: 50px 0 20px 10px;
+    }
+}
+.about-div h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+@media all and (max-width: 390px) {
+    .about-div h3 {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 330px) {
+    .about-div h3 {
+        font-size: 16px;
+    }
+}
+.about-div p {
+    font-size: 16px;
+    line-height: 1.3;
+}
+.about-div-logo {
+    max-width: 130px;
+    position: absolute;
+    top: -50px;
+    left: 650px;
+}
+@media all and (max-width: 1070px) {
+    .about-div-logo {
+        top: -50px;
+        left: 640px;
+    }
+}
+@media all and (max-width: 1000px) {
+    .about-div-logo {
+        top: -50px;
+        left: 500px;
+    }
+}
+@media all and (max-width: 750px) {
+    .about-div-logo {
+        top: -50px;
+        left: 470px;
+    }
+}
+@media all and (max-width: 710px) {
+    .about-div-logo {
+        top: -50px;
+        left: 450px;
+        max-width: 110px;
+    }
+}
+@media all and (max-width: 585px) {
+    .about-div-logo {
+        top: -50px;
+        left: 430px;
+        max-width: 100px;
+    }
+}
+@media all and (max-width: 540px) {
+    .about-div-logo {
+        top: -50px;
+        left: 400px;
+        max-width: 80px;
+    }
+}
+@media all and (max-width: 500px) {
+    .about-div-logo {
+        display: none;
+    }
+}
+.about-div-1 {
+    max-width: 70%;
+}
+@media all and (max-width: 1420px) {
+    .about-div-1 {
+        max-width: 75%;
+    }
+}
+@media all and (max-width: 1350px) {
+    .about-div-1 {
+        max-width: 80%;
+    }
+}
+@media all and (max-width: 1150px) {
+    .about-div-1 {
+        max-width: 90%;
+    }
+}
+@media all and (max-width: 585px) {
+    .about-div-1 {
+        max-width: 75%;
+    }
+}
+@media all and (max-width: 500px) {
+    .about-div-1 {
+        max-width: 100%;
+    }
+}
+.about-div-2 {
+    max-width: 100%;
+}
